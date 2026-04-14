@@ -1,5 +1,6 @@
  body {
       font-family: DM Sans, Arial;
+      margin-top: 5%;
     }
     .wrapper {
       display: flex;
@@ -219,6 +220,7 @@
       }
       .all {
         display: grid;
+        place-items: center;
         grid-template-columns: repeat(4, 1fr);
         max-width: 1440px;
         margin: 0, auto;
@@ -227,25 +229,27 @@
         width: 43%;
         grid-column: span 1;
         grid-row: span 1;
-        height: 110%;
-        margin-left: 42%;
+        height: 75%;
+        margin-left: 145%;
+        margin-top: 28%;
       }
       .create img {
         width: 80%;
       }
       .media {
         width: 45%;
-        height: 70%;
+        height: 50%;
         grid-column: span 2;
         grid-row:  span 1;
+        margin-top: -2%;
       }
       .schedule {
         width: 40%;
-        height: 82%;
+        height: 80%;
         grid-column: span 1;
         grid-row: span 2;
-        margin-left: -100%;
-        margin-top: -0%;
+        margin-left: -153%;
+        margin-top: 22%;
       }
       .schedule img {
         width: 140%;
@@ -262,11 +266,11 @@
       }
       .write {
         width: 45%;
-        height: 70%;
+        height: 250px;
         grid-row: span 2;
         grid-column: span 1;
-        margin-left: 43%;
-        margin-top: 17%;
+        margin-left: 145%;
+        margin-top: 2%;
       }
       .write p {
         margin-top: 0;
@@ -276,10 +280,11 @@
       }
       .multiple-accounts {
         width: 40%;
-        height: 85%;
+        height: 165px;
         grid-row: span 1;
         grid-column: span 1;
-        margin-top: -13%;
+        margin-top: -24%;
+        margin-left: 50%;
       }
       .multiple-accounts img {
         width: 130%;
@@ -287,11 +292,11 @@
       }
       .maintain {
         width: 40%;
-        height: 87%;
+        height: 175px;
         grid-row: span 1;
         grid-column:  span 1;
         margin-left: -50%;
-        margin-top: -13%;
+        margin-top: -26%;
       }
       .maintain img {
        width: 100%;
@@ -304,25 +309,29 @@
       }
       .fast {
         width: 35%;
-        height: 100%;
+        height: 150px;
         grid-row: span 1;
         grid-column: span 1;
-        margin-top: -10%;
+        margin-top: 3%;
+        margin-left: 50%;
       }
       .fast p {
         font-size: 12px;
       }
       .grow {
         width: 44%;
-        height: 90%;
+        height: 130px;
         display: flex;
         justify-content: center;
         align-items: center;
         grid-row: span 1;
         grid-column: span 2;
         text-align: left;
-        margin-left: -25%;
-        margin-top: -5%;
+        margin-left: -47%;
+        margin-top: 2%;
+      }
+      .grow p {
+        font-size: 18px;
       }
       .grow img {
         width: 40%;
